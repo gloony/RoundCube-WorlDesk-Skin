@@ -1,0 +1,8 @@
+{
+	"extends": "larry",
+	"name": "Worldesk",
+	"author": "gloony, Switzerland",
+	"localization": true,
+	"license": "Creative Commons Attribution-ShareAlike",
+	"license-url": "http://creativecommons.org/licenses/by-sa/3.0/"
+}

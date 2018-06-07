@@ -1,0 +1,2309 @@
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Roboto, sans-serif !important;
+  font-size: 12px; }
+
+form, form tbody{
+	display: block;
+	width: 100%;
+}
+
+/* ui dialog */
+.ui-dialog {
+  padding: 0;
+  border-radius: 0 !important; }
+
+.ui-widget-header {
+  background: #fff !important;
+  border-radius: 0 !important; }
+
+.ui-widget-content {
+  background-color: #fff;
+  border: none; }
+
+/* inputs */
+select,
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+textarea,
+.searchbox input,
+a.menuselector {
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+  background: transparent;
+  padding: 5px 0 6px 0 !important;
+  font-weight: normal;
+  -webkit-transition: border-color 1s linear;
+  -moz-transition: border-color 1s linear;
+  -o-transition: border-color 1s linear;
+  transition: border-color 1s linear; }
+
+select:focus,
+textarea:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='email']:focus {
+  padding-bottom: 5px !important; }
+
+/* buttons */
+input[type='button'],
+input.button,
+button,
+.ui-button,
+.ui-button.ui-state-default {
+  text-transform: uppercase;
+  background-color: #aaa;
+  border: none;
+  font-weight: normal;
+  font-size: 1em !important;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 10px 0 0 !important;
+  border-radius: 2px !important;
+  transition: background 0.3s linear; }
+
+.ui-button span.ui-button-text {
+  padding: 0 !important; }
+
+body.iframe .footerleft,
+#composeview-bottom .formbuttons {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  box-sizing: border-box;
+  z-index: 110;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-top: 1px solid #ddd;
+  text-align: right; }
+
+body.iframe .footerleft:before {
+  display: none; }
+
+#xresell-buy-now p {
+  text-align: left; }
+
+/* tabs */
+ul.tabsbar,
+ul.tabsbar li,
+ul.tabsbar a {
+  background: #fff !important; }
+
+.ui-tabs .ui-tabs-nav {
+  height: auto;
+  padding-bottom: 2px; }
+
+ul.tabsbar a,
+.xtabs.ui-tabs-nav a,
+.xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  text-transform: uppercase;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid #fff;
+  min-height: 0 !important;
+  padding: 10px 12px 15px 12px !important;
+  font-weight: normal; }
+
+.xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  font-weight: normal; }
+
+ul.tabsbar li {
+  position: static;
+  border: none !important;
+  border-image: none;
+  padding: 0 !important; }
+
+.xtabs.ui-tabs .ui-tabs-nav {
+  border-bottom: none; }
+
+/* other */
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+.contactfieldgroup legend {
+  background: transparent;
+  border: none;
+  margin: 0; }
+
+#calendar-grid .fc-toolbar .fc-button {
+  color: #fff; }
+
+#main-calendar-container h2 {
+  font-weight: normal; }
+
+.xcalendar .ui-datepicker .ui-datepicker-header {
+  background: #666666; }
+
+.xcalendar .ui-datepicker .ui-datepicker-month,
+.xcalendar .ui-datepicker .ui-datepicker-year,
+.xcalendar .ui-datepicker .ui-datepicker-prev,
+.xcalendar .ui-datepicker .ui-datepicker-next,
+.xcalendar .fc-state-default,
+.xcalendar .boxtitle button {
+  color: #555 !important;
+  text-shadow: none;
+  font-weight: normal;
+  height: auto; }
+
+.xcalendar .fc-list-view {
+  border: 1px solid #ddd;
+  border-top: none; }
+
+#sidebar-calendar .ui-datepicker select.ui-datepicker-month,
+#sidebar-calendar .ui-datepicker select.ui-datepicker-year {
+  text-decoration: none !important;
+  margin: 0 2px !important;
+  padding: 0 !important; }
+
+.xcalendar .editor .content-box {
+  border: none; }
+
+.xcalendar .editor .formbuttons {
+  border-left: none;
+  border-right: none; }
+
+#xcalendar-categories .category-item input[type='button'] {
+  position: relative;
+  height: 18px;
+  padding-top: 1px !important;
+  padding-bottom: 0 !important;
+  font-size: 10px !important; }
+
+.fc th:first-child,
+.fc td:first-child {
+  border-left: none; }
+
+.fc th:last-child,
+.fc td:last-child {
+  border-right: none; }
+
+.ui-datepicker .ui-datepicker-title {
+  line-height: 1em; }
+
+.xcalendar #sidebar-calendar a.ui-datepicker-prev,
+.xcalendar #sidebar-calendar a.ui-datepicker-next {
+  top: 6px; }
+
+#sidebar-calendar .ui-datepicker-header {
+  padding-top: 6px; }
+
+.fc-icon-left-single-arrow:after,
+.fc-icon-right-single-arrow:after {
+  font-weight: 300;
+  font-size: 1.4em; }
+
+.xcalendar #calendar-grid .fc-icon-today {
+  top: -2px; }
+
+.xcalendar #sidebar-calendar .selected-range td a {
+  background: #eee !important; }
+
+.xcalendar .ui-datepicker-calendar td a,
+.listbox .listitem,
+.listbox .tablink,
+.listing tbody td,
+.listing li {
+  font-weight: normal !important; }
+
+body .listing .selected td {
+  font-weight: bold !important; }
+
+.listing tbody td a {
+  color: #333; }
+
+.xcalendar-sun-data:before {
+  font-size: 10px !important; }
+
+#xcalendar-categories input[type='text'] {
+  width: 200px !important; }
+
+.mh_preferences input[type='text'],
+.mh_preferences select {
+  width: auto !important; }
+
+#filter-form select,
+#filter-form input,
+#filter-form textarea {
+  font-size: 1em; }
+#filter-form label.material.radio {
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  position: relative;
+  top: 3px; }
+
+#filterslist tbody tr.disabled td,
+#filtersetslist tbody tr.disabled td {
+  color: #333; }
+
+#password-form .boxcontent {
+  border: 0; }
+
+#password-form .boxcontent .title {
+  padding-right: 20px; }
+
+#password-form .boxcontent p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 8px 0 12px 0;
+  border-top: 1px solid #ddd;
+  text-align: right; }
+
+.minicolors input[type='text'] {
+  padding-left: 24px !important; }
+
+.minicolors-theme-bootstrap .minicolors-swatch {
+  left: 0;
+  border-radius: 2px !important;
+  width: 16px;
+  height: 16px;
+  cursor: pointer; }
+
+.xformatting label.ui-button {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1px 4px !important;
+  color: #333 !important;
+  background: transparent !important;
+  margin-right: 4px !important;
+  transition: none !important; }
+
+#xsignature-settings-controller .xformatting label.ui-button:hover {
+  background: transparent !important; }
+
+#xsignature-settings-controller #signature-tabs div.xformatting label.ui-state-active {
+  background: #ddd !important; }
+
+.contactfieldgroup legend {
+  padding-left: 0; }
+
+.contactfieldlabel.label {
+  left: 0; }
+
+.ui-button.ui-state-default {
+  background-image: none; }
+
+/* material checkboxes */
+input.material-input {
+  display: none;
+  opacity: 0 !important;
+  position: absolute !important; }
+
+label.material {
+  font-size: 1em;
+  background: transparent;
+  position: relative;
+  display: inline-block !important;
+  padding: 0 !important;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.54) !important;
+  border-radius: 2px !important;
+  vertical-align: -0.15em !important;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  text-align: center;
+  margin: 0 !important;
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear; }
+
+label.material.radio {
+  border-radius: 50% !important; }
+
+input.material-input:checked + label.material {
+  background: #aaa;
+  border-color: #aaa; }
+
+input.material-input:checked + label.material.radio:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  content: '' !important; }
+
+input.material-input:checked + label.material.checkbox:after {
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  font-family: IconFont;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  content: '\ec10' !important; }
+
+body.xskin input.material-input:disabled + label.material,
+body.xskin input.material-input:checked:disabled + label.material {
+  background: #cdcdcd !important;
+  border-color: #cdcdcd !important;
+  cursor: not-allowed; }
+
+label.material:before {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  display: block;
+  background: #aaa;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear; }
+
+label.material.flash:before {
+  opacity: 1; }
+
+/* material wave */
+.wave-container {
+  position: relative;
+  overflow: hidden; }
+
+.wave {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  animation: ripple 0.6s; }
+
+@keyframes ripple {
+  100% {
+    transform: scale(100);
+    opacity: 0; } }
+#interface-options {
+  color: #333 !important; }
+
+body {
+  background-color: #E5E5E5;
+  color: #262626; }
+
+body,
+ul, ol,
+.searchbox input,
+#quicksearchbar input {
+  font-size: 13px !important;
+  font-weight: normal; }
+
+body.minwidth {
+  min-width: 900px !important; }
+
+:before {
+  font-size: 16px !important; }
+
+.boxfooter :before {
+  font-size: 22px !important; }
+
+ul, ol {
+  line-height: 1em !important; }
+
+a {
+  color: #262626; }
+
+#topline {
+  overflow: hidden;
+  font-size: 11px;
+  font-weight: normal; }
+
+#topline a {
+  font-size: 11px;
+  font-weight: normal; }
+
+#topnav {
+  top: 0 !important; }
+
+.topleft > span,
+.topright > span {
+  display: inline-block;
+  padding-top: 2px !important; }
+
+#taskbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: auto;
+  height: 46px;
+  padding-right: 30px !important; }
+  #taskbar .button-logout {
+    padding-right: 16px !important; }
+  #taskbar a.button-interface-options {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    width: auto;
+    margin-right: 0; }
+    #taskbar a.button-interface-options:before {
+      display: block; }
+
+#taskbar > a,
+#taskbar > span {
+  padding: 14px 16px 0 16px !important;
+  height: 46px !important;
+  background-color: transparent !important;
+  box-sizing: border-box;
+  margin: 0;
+  text-transform: uppercase;
+  transition: background-color 0.3s linear; }
+
+#taskbar > span {
+  padding: 14px 8px 0 8px !important; }
+
+#taskbar a span {
+  padding: 0 !important; }
+
+#taskbar a:before {
+  display: none; }
+
+#taskbar .minmodetoggle {
+  padding-top: 14px !important; }
+
+.minimal #header {
+  min-height: 75px; }
+.minimal #taskbar {
+  top: 0;
+  height: 42px; }
+.minimal #taskbar .minmodetoggle {
+  padding-top: 14px !important; }
+.minimal #taskbar > a,
+.minimal #taskbar > span {
+  height: 42px !important;
+  padding-top: 10px !important; }
+.minimal #taskbar a:before {
+  display: block;
+  font-size: 22px !important; }
+.minimal #taskbar a .tooltip {
+  opacity: 0;
+  background-color: rgba(97, 97, 97, 0.9) !important;
+  border: none;
+  color: #fff !important;
+  padding: 6px !important;
+  font-size: 0.8em;
+  border-radius: 2px !important;
+  text-transform: none;
+  transition: opacity 0.3s linear; }
+.minimal #taskbar a:hover .tooltip {
+  top: 44px;
+  opacity: 1; }
+.minimal #taskbar a:hover .tooltip:after {
+  display: none; }
+
+body.iframe {
+  margin-top: 0; }
+
+body.iframe .boxtitle {
+  position: relative;
+  min-height: 38px;
+  box-sizing: border-box; }
+
+/* toolbar */
+.toolbar {
+  top: -2px !important; }
+
+.toolbar a.button,
+.xcalendar .toolbar a.button {
+  position: relative;
+  padding: 8px 12px 8px 28px !important;
+  text-align: left;
+  min-width: 0 !important;
+  max-width: none;
+  background-color: #fff !important;
+  font-size: 11px; }
+
+body.xskin .toolbar > a.button,
+body.xskin .toolbar > span.dropbutton {
+  display: block;
+  float: left;
+  margin-right: 6px; }
+
+.toolbar a.button:before {
+  position: absolute !important;
+  left: 8px;
+  top: 6px;
+  width: auto !important;
+  min-width: 0; }
+
+body.font-icons-toolbars .toolbar a.button:hover {
+  background: #f5f5f5 !important; }
+
+.toolbar span.dropbutton a.button {
+  padding-right: 20px !important; }
+
+.toolbar a.dropbuttontip {
+  color: #aaa;
+  padding: 6px 5px 0 5px !important; }
+
+body.font-icons-toolbars .toolbar a.button {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 2px !important;
+  background: #fff;
+  padding: 5px 10px 2px 10px;
+  min-height: 0;
+  height: auto; }
+
+#searchfilter,
+#quicksearchbar {
+  top: -2px;
+  height: 27px; }
+
+#searchfilter select {
+  margin: 0;
+  border: none !important; }
+
+#searchfilter a.menuselector {
+  padding: 2px 0 0 0 !important;
+  margin: 0;
+  border: none !important; }
+
+#searchfilter a.menuselector:after {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  padding-right: 0; }
+
+.searchbox input,
+#quicksearchbar input {
+  padding-left: 36px !important; }
+
+.xsidebar-wrap #quicksearchbar {
+  right: 28px; }
+
+.xsidebar-wrap #searchfilter {
+  right: 276px; }
+
+#quicksearchbar form input {
+  background: transparent;
+  font-weight: normal;
+  border: none !important; }
+
+#searchmenu {
+  min-width: 200px; }
+
+#compact-message-list-header {
+  padding: 7px 20px; }
+
+/* boxes */
+#directorylist li a {
+  padding: 0; }
+
+.uibox,
+#xsidebar .box-wrap,
+#searchfilter,
+#quicksearchbar,
+#main-calendar-container {
+  background-color: #fff !important;
+  border-radius: 2px !important;
+  border: none !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important; }
+
+.uibox .iframebox,
+#mailview-top {
+  border: none; }
+
+.uibox .listing a,
+body.font-icons-toolbars #directorylist li a {
+  /*padding: 0 !important;*/
+  background: transparent !important;
+  border: none !important; }
+
+body.font-icons-toolbars #contacts-table .contact td.name,
+.uibox .listing li,
+.uibox .listing td {
+  padding: 7px 10px !important;
+  background: transparent !important;
+  border: none !important; }
+
+body.font-icons-toolbars #contacts-table .contact td.name:hover,
+.listing tbody tr:hover,
+.listing li:hover {
+  background-color: transparent !important; }
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th,
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+#xsidebar h2.boxtitle {
+  background-color: transparent;
+  border: none;
+  color: #262626 !important;
+  font-weight: normal;
+  font-size: 17px;
+  padding: 12px 5px 0 10px; }
+
+.boxtitle button {
+  padding-top: 0;
+  padding-right: 0; }
+
+.listbox {
+  background-color: #fff; }
+
+.listbox .boxtitle + .scroller {
+  top: 45px; }
+
+#settings-tabs ul li a {
+  padding: 0; }
+
+.records-table thead td,
+.records-table thead th {
+  background: #fff; }
+
+#preferences-details select,
+#preferences-details input[type='text'],
+#preferences-details input[type='number'],
+#preferences-details input[type='password'],
+#preferences-details input[type='email'],
+#preferences-details textarea {
+  width: 80%; }
+
+.boxfooter a.listbutton,
+.records-table thead th a:before {
+  color: #737373 !important; }
+
+.boxfooter a.listbutton {
+  padding-top: 8px !important; }
+
+.boxfooter a.listbutton:hover {
+  color: #464646 !important; }
+
+.popupmenu {
+  border: 1px solid #d6d6d6 !important;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2) !important; }
+
+.toolbarmenu li {
+  padding: 0 !important; }
+
+.splitter {
+  background-image: none; }
+
+#quotadisplay {
+  top: 11px;
+  padding-top: 4px;
+  color: #777777; }
+
+.contactfieldgroup {
+  background: transparent; }
+
+.boxpagenav {
+  top: 12px; }
+
+/* sidebar */
+#xsidebar-button {
+  margin-top: 0; }
+
+#xsidebar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  right: -5px; }
+
+#xsidebar .box-wrap {
+  margin-bottom: 10px;
+  margin-right: 5px; }
+
+#xsidebar h2.boxtitle {
+  line-height: 1.1em;
+  padding: 12px 15px; }
+
+#xsidebar h2.boxtitle:before {
+  color: #a8a8a8; }
+
+#xsidebar h2.boxtitle:hover:before {
+  color: #777; }
+
+.box-xnews_feed h2.boxtitle img {
+  top: 2px; }
+
+#xsidebar .box-content {
+  padding: 10px 15px 15px 15px; }
+
+#xsidebar .box-content li {
+  padding: 4px 0; }
+
+/* folder list */
+#folderlist-content,
+#folderslist-content,
+#mailboxcontainer {
+  /* settings page */
+  padding-top: 7px; }
+  #folderlist-content .treetoggle,
+  #folderslist-content .treetoggle,
+  #mailboxcontainer .treetoggle {
+    top: 9px !important;
+    left: 8px !important;
+    color: #bbb; }
+  #folderlist-content ul,
+  #folderslist-content ul,
+  #mailboxcontainer ul {
+    border: none !important; }
+  #folderlist-content li,
+  #folderslist-content li,
+  #mailboxcontainer li {
+    padding: 0 !important; }
+  #folderlist-content li[area-expanded='true']:hover,
+  #folderslist-content li[area-expanded='true']:hover,
+  #mailboxcontainer li[area-expanded='true']:hover {
+    background-color: transparent !important; }
+  #folderlist-content li.selected > a,
+  #folderslist-content li.selected > a,
+  #mailboxcontainer li.selected > a {
+    font-weight: bold !important; }
+  #folderlist-content li a,
+  #folderslist-content li a,
+  #mailboxcontainer li a {
+    padding: 7px 0 7px 24px !important; }
+  #folderlist-content li li a,
+  #folderslist-content li li a,
+  #mailboxcontainer li li a {
+    padding-left: 34px !important; }
+  #folderlist-content li li li a,
+  #folderslist-content li li li a,
+  #mailboxcontainer li li li a {
+    padding-left: 44px !important; }
+  #folderlist-content li li li li a,
+  #folderslist-content li li li li a,
+  #mailboxcontainer li li li li a {
+    padding-left: 54px !important; }
+  #folderlist-content li li li li li a,
+  #folderslist-content li li li li li a,
+  #mailboxcontainer li li li li li a {
+    padding-left: 64px !important; }
+  #folderlist-content li li li li li li a,
+  #folderslist-content li li li li li li a,
+  #mailboxcontainer li li li li li li a {
+    padding-left: 74px !important; }
+  #folderlist-content li li li li li li li a,
+  #folderslist-content li li li li li li li a,
+  #mailboxcontainer li li li li li li li a {
+    padding-left: 84px !important; }
+
+#mailboxcontainer #mailboxlist li.mailbox span.unreadcount {
+  font-weight: normal;
+  font-size: 80%; }
+
+/* message list */
+#messagelist :before {
+  top: 1px !important; }
+
+#messagelistfooter,
+#messagelistfooter a.menuselector,
+.records-table thead td,
+.records-table thead th,
+.records-table thead th a,
+.records-table thead td a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr td.sortedDESC a {
+  color: #747474 !important; }
+
+.messagelist tr th.threads .listmenu {
+  padding-top: 4px;
+  padding-left: 8px; }
+
+.records-table thead th a,
+.records-table thead td a {
+  background: transparent !important;
+  font-size: 13px; }
+
+.records-table thead th {
+  border-bottom: 1px solid #ddd; }
+
+.records-table tbody tr:hover td {
+  /*background-color: #eee !important;*/ }
+
+.records-table tr.selected td,
+.records-table tr.unfocused td {
+  /*background: #F5F5F5 !important;*/ }
+
+.records-table tbody td {
+  border-left: none;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+#messagelistcontainer {
+  bottom: 42px; }
+
+#mailpreviewtoggle {
+  /* let's make sure it covers the controls underneath */
+  right: 0;
+  top: 0;
+  padding: 12px 7px 7px 0;
+  background: #fff; }
+
+#messagelistfooter {
+  background: transparent !important;
+  height: 32px;
+  padding: 10px 10px 0 10px; }
+
+#messagelistfooter #listselectors a {
+  padding-top: 3px;
+  padding-bottom: 0;
+  border-bottom: none !important; }
+
+table.quota-info td,
+table.quota-info th {
+  color: #333; }
+
+/* ui dialogs */
+.ui-dialog-buttonset button,
+.ui-dialog-buttonset button span {
+  color: #fff; }
+
+/* xvertical_preview */
+#vertical-preview {
+  background: #fff; }
+
+/* xbackground */
+body.xskin.xbg #xsidebar .box-wrap {
+  background: rgba(255, 255, 255, 0.5) !important; }
+body.xskin.xbg .ui-widget-header,
+body.xskin.xbg #main-calendar-container {
+  background: transparent !important; }
+
+/* xcalendar */
+#calendar-list-content .calendar-item {
+  padding: 0 !important; }
+
+body.login-page {
+  background-color: #fff; }
+
+#login-form {
+  position: static;
+  text-align: center;
+  width: 100%; }
+  #login-form #company-name {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+    padding: 0;
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 300;
+    display: block !important; }
+  #login-form .box-inner {
+    position: static;
+    width: 380px;
+    padding: 40px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3) !important;
+    background: #f7f7f7;
+    margin: auto;
+    border-radius: 0; }
+  #login-form .box-bottom {
+    margin-top: 10px; }
+  #login-form h1 {
+    background: url(images/login.png) no-repeat center top;
+    height: 96px;
+    margin: 0; }
+  #login-form h1 span {
+    display: none; }
+  #login-form #bottomline,
+  #login-form #bottomline a {
+    color: #737373; }
+
+#login-form .box-inner form {
+  padding: 20px 0 0 0; }
+  #login-form .box-inner form table,
+  #login-form .box-inner form tr,
+  #login-form .box-inner form td.title,
+  #login-form .box-inner form td.input {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left; }
+  #login-form .box-inner form table table {
+    display: table; }
+  #login-form .box-inner form table table tr {
+    display: table-row; }
+  #login-form .box-inner form table table td {
+    display: table-cell; }
+  #login-form .box-inner form td {
+    padding: 5px 0; }
+  #login-form .box-inner form td.title {
+    padding: 8px 0 6px 0; }
+  #login-form .box-inner form label {
+    text-transform: uppercase; }
+  #login-form .box-inner form td.input > input[type=text],
+  #login-form .box-inner form td.input > input[type=password],
+  #login-form .box-inner form td.input > select {
+    width: 100% !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: 300;
+    border: 1px solid #D9D9D9 !important;
+    border-top: 1px solid #A0A0A0 !important;
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important; }
+  #login-form .box-inner form input[type=text]:hover,
+  #login-form .box-inner form input[type=password]:hover,
+  #login-form .box-inner form select:hover {
+    border-color: #B9B9B9 !important; }
+  #login-form .box-inner form input[type=text]:focus,
+  #login-form .box-inner form input[type=password]:focus,
+  #login-form .box-inner form select:focus {
+    border-color: #4D90FE !important; }
+  #login-form .box-inner form p.formbuttons {
+    margin: 10px 0 5px 0;
+    padding: 0; }
+  #login-form .box-inner form input[type=submit] {
+    padding: 10px 20px 8px 20px;
+    background: #357AE8 !important;
+    color: #fff !important;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    border-radius: 1px !important;
+    margin: 0; }
+  #login-form .box-inner form input[type=submit]:hover {
+    background: #4D90FE !important; }
+
+.color-F44336 #topnav,
+.color-F44336 #topline {
+  background: #F44336; }
+
+.xdesktop.color-F44336 #taskbar > a:hover,
+.xdesktop.color-F44336 #taskbar > span:hover,
+.xmobile.color-F44336 #main-menu,
+.xmobile.color-F44336 .popup-close,
+.xmobile.color-F44336 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-F44336 #messagelistcontainer .pagenav a.button,
+.xmobile.color-F44336 #messagestack div,
+.xmobile.color-F44336 #message-objects div a.button,
+.xmobile.color-F44336 .popup-box .popup-close,
+.xmobile.color-F44336 #contactphoto .formlinks a,
+.xmobile.color-F44336 .records-table thead tr th {
+  background-color: #D32F2F !important; }
+
+/*    .xdesktop.color-F44336 #topnav,
+    .xdesktop.color-F44336 #topline,
+    .xdesktop.color-F44336 #topline .topleft a,
+    .xdesktop.color-F44336 #topline .topright a,
+    .xdesktop.color-F44336 #taskbar a,
+    .xdesktop.color-F44336 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-F44336 input.material-input:checked + label.material,
+.color-F44336 input[type='button'],
+.color-F44336 input.button,
+.color-F44336 button,
+.color-F44336 .ui-button.ui-state-default,
+.xmobile.color-F44336 .boxfooter .listbutton {
+  background: #2979FF; }
+
+.color-F44336 input.material-input:checked + label.material {
+  border-color: #2979FF !important; }
+
+.color-F44336 #mailboxlist li.selected > a,
+.color-F44336 .messagelist tr.flagged td,
+.color-F44336 .messagelist tr.flagged td a,
+.color-F44336 .records-table tr.flagged td span,
+.color-F44336 #messagelist tr td .flag span.flagged:before,
+.color-F44336 .listing .selected > td,
+.color-F44336 .listing .selected > a {
+  color: #2979FF !important; }
+
+.color-F44336 select:focus,
+.color-F44336 textarea:focus,
+.color-F44336 input[type='text']:focus,
+.color-F44336 input[type='password']:focus,
+.color-F44336 input[type='number']:focus,
+.color-F44336 input[type='email']:focus,
+.color-F44336 ul.tabsbar .ui-tabs-active a,
+.color-F44336 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #2979FF !important; }
+
+.color-F44336 input[type='button']:hover,
+.color-F44336 input.button:hover,
+.color-F44336 button.button:hover,
+.color-F44336 .ui-button:hover,
+.color-F44336 .ui-button.ui-state-default:hover {
+  background-color: #236FEC; }
+
+.color-F44336 label.material:before {
+  background: #5494FF; }
+
+/*    .color-F44336 label.material:before,
+    .color-F44336 input.material-input:checked + label.material,
+    .color-F44336 input[type='button'],
+    .color-F44336 input.button,
+    .color-F44336 button,
+    .color-F44336 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-E91E63 #topnav,
+.color-E91E63 #topline {
+  background: #E91E63; }
+
+.xdesktop.color-E91E63 #taskbar > a:hover,
+.xdesktop.color-E91E63 #taskbar > span:hover,
+.xmobile.color-E91E63 #main-menu,
+.xmobile.color-E91E63 .popup-close,
+.xmobile.color-E91E63 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-E91E63 #messagelistcontainer .pagenav a.button,
+.xmobile.color-E91E63 #messagestack div,
+.xmobile.color-E91E63 #message-objects div a.button,
+.xmobile.color-E91E63 .popup-box .popup-close,
+.xmobile.color-E91E63 #contactphoto .formlinks a,
+.xmobile.color-E91E63 .records-table thead tr th {
+  background-color: #C2185B !important; }
+
+/*    .xdesktop.color-E91E63 #topnav,
+    .xdesktop.color-E91E63 #topline,
+    .xdesktop.color-E91E63 #topline .topleft a,
+    .xdesktop.color-E91E63 #topline .topright a,
+    .xdesktop.color-E91E63 #taskbar a,
+    .xdesktop.color-E91E63 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-E91E63 input.material-input:checked + label.material,
+.color-E91E63 input[type='button'],
+.color-E91E63 input.button,
+.color-E91E63 button,
+.color-E91E63 .ui-button.ui-state-default,
+.xmobile.color-E91E63 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-E91E63 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-E91E63 #mailboxlist li.selected > a,
+.color-E91E63 .messagelist tr.flagged td,
+.color-E91E63 .messagelist tr.flagged td a,
+.color-E91E63 .records-table tr.flagged td span,
+.color-E91E63 #messagelist tr td .flag span.flagged:before,
+.color-E91E63 .listing .selected > td,
+.color-E91E63 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-E91E63 select:focus,
+.color-E91E63 textarea:focus,
+.color-E91E63 input[type='text']:focus,
+.color-E91E63 input[type='password']:focus,
+.color-E91E63 input[type='number']:focus,
+.color-E91E63 input[type='email']:focus,
+.color-E91E63 ul.tabsbar .ui-tabs-active a,
+.color-E91E63 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-E91E63 input[type='button']:hover,
+.color-E91E63 input.button:hover,
+.color-E91E63 button.button:hover,
+.color-E91E63 .ui-button:hover,
+.color-E91E63 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-E91E63 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-E91E63 label.material:before,
+    .color-E91E63 input.material-input:checked + label.material,
+    .color-E91E63 input[type='button'],
+    .color-E91E63 input.button,
+    .color-E91E63 button,
+    .color-E91E63 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-9C27B0 #topnav,
+.color-9C27B0 #topline {
+  background: #9C27B0; }
+
+.xdesktop.color-9C27B0 #taskbar > a:hover,
+.xdesktop.color-9C27B0 #taskbar > span:hover,
+.xmobile.color-9C27B0 #main-menu,
+.xmobile.color-9C27B0 .popup-close,
+.xmobile.color-9C27B0 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-9C27B0 #messagelistcontainer .pagenav a.button,
+.xmobile.color-9C27B0 #messagestack div,
+.xmobile.color-9C27B0 #message-objects div a.button,
+.xmobile.color-9C27B0 .popup-box .popup-close,
+.xmobile.color-9C27B0 #contactphoto .formlinks a,
+.xmobile.color-9C27B0 .records-table thead tr th {
+  background-color: #7B1FA2 !important; }
+
+/*    .xdesktop.color-9C27B0 #topnav,
+    .xdesktop.color-9C27B0 #topline,
+    .xdesktop.color-9C27B0 #topline .topleft a,
+    .xdesktop.color-9C27B0 #topline .topright a,
+    .xdesktop.color-9C27B0 #taskbar a,
+    .xdesktop.color-9C27B0 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-9C27B0 input.material-input:checked + label.material,
+.color-9C27B0 input[type='button'],
+.color-9C27B0 input.button,
+.color-9C27B0 button,
+.color-9C27B0 .ui-button.ui-state-default,
+.xmobile.color-9C27B0 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-9C27B0 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-9C27B0 #mailboxlist li.selected > a,
+.color-9C27B0 .messagelist tr.flagged td,
+.color-9C27B0 .messagelist tr.flagged td a,
+.color-9C27B0 .records-table tr.flagged td span,
+.color-9C27B0 #messagelist tr td .flag span.flagged:before,
+.color-9C27B0 .listing .selected > td,
+.color-9C27B0 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-9C27B0 select:focus,
+.color-9C27B0 textarea:focus,
+.color-9C27B0 input[type='text']:focus,
+.color-9C27B0 input[type='password']:focus,
+.color-9C27B0 input[type='number']:focus,
+.color-9C27B0 input[type='email']:focus,
+.color-9C27B0 ul.tabsbar .ui-tabs-active a,
+.color-9C27B0 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-9C27B0 input[type='button']:hover,
+.color-9C27B0 input.button:hover,
+.color-9C27B0 button.button:hover,
+.color-9C27B0 .ui-button:hover,
+.color-9C27B0 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-9C27B0 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-9C27B0 label.material:before,
+    .color-9C27B0 input.material-input:checked + label.material,
+    .color-9C27B0 input[type='button'],
+    .color-9C27B0 input.button,
+    .color-9C27B0 button,
+    .color-9C27B0 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-673AB7 #topnav,
+.color-673AB7 #topline {
+  background: #673AB7; }
+
+.xdesktop.color-673AB7 #taskbar > a:hover,
+.xdesktop.color-673AB7 #taskbar > span:hover,
+.xmobile.color-673AB7 #main-menu,
+.xmobile.color-673AB7 .popup-close,
+.xmobile.color-673AB7 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-673AB7 #messagelistcontainer .pagenav a.button,
+.xmobile.color-673AB7 #messagestack div,
+.xmobile.color-673AB7 #message-objects div a.button,
+.xmobile.color-673AB7 .popup-box .popup-close,
+.xmobile.color-673AB7 #contactphoto .formlinks a,
+.xmobile.color-673AB7 .records-table thead tr th {
+  background-color: #512DA8 !important; }
+
+/*    .xdesktop.color-673AB7 #topnav,
+    .xdesktop.color-673AB7 #topline,
+    .xdesktop.color-673AB7 #topline .topleft a,
+    .xdesktop.color-673AB7 #topline .topright a,
+    .xdesktop.color-673AB7 #taskbar a,
+    .xdesktop.color-673AB7 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-673AB7 input.material-input:checked + label.material,
+.color-673AB7 input[type='button'],
+.color-673AB7 input.button,
+.color-673AB7 button,
+.color-673AB7 .ui-button.ui-state-default,
+.xmobile.color-673AB7 .boxfooter .listbutton {
+  background: #F50057; }
+
+.color-673AB7 input.material-input:checked + label.material {
+  border-color: #F50057 !important; }
+
+.color-673AB7 #mailboxlist li.selected > a,
+.color-673AB7 .messagelist tr.flagged td,
+.color-673AB7 .messagelist tr.flagged td a,
+.color-673AB7 .records-table tr.flagged td span,
+.color-673AB7 #messagelist tr td .flag span.flagged:before,
+.color-673AB7 .listing .selected > td,
+.color-673AB7 .listing .selected > a {
+  color: #F50057 !important; }
+
+.color-673AB7 select:focus,
+.color-673AB7 textarea:focus,
+.color-673AB7 input[type='text']:focus,
+.color-673AB7 input[type='password']:focus,
+.color-673AB7 input[type='number']:focus,
+.color-673AB7 input[type='email']:focus,
+.color-673AB7 ul.tabsbar .ui-tabs-active a,
+.color-673AB7 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #F50057 !important; }
+
+.color-673AB7 input[type='button']:hover,
+.color-673AB7 input.button:hover,
+.color-673AB7 button.button:hover,
+.color-673AB7 .ui-button:hover,
+.color-673AB7 .ui-button.ui-state-default:hover {
+  background-color: #DF0355; }
+
+.color-673AB7 label.material:before {
+  background: #F73379; }
+
+/*    .color-673AB7 label.material:before,
+    .color-673AB7 input.material-input:checked + label.material,
+    .color-673AB7 input[type='button'],
+    .color-673AB7 input.button,
+    .color-673AB7 button,
+    .color-673AB7 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-3F51B5 #topnav,
+.color-3F51B5 #topline {
+  background: #3F51B5; }
+
+.xdesktop.color-3F51B5 #taskbar > a:hover,
+.xdesktop.color-3F51B5 #taskbar > span:hover,
+.xmobile.color-3F51B5 #main-menu,
+.xmobile.color-3F51B5 .popup-close,
+.xmobile.color-3F51B5 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-3F51B5 #messagelistcontainer .pagenav a.button,
+.xmobile.color-3F51B5 #messagestack div,
+.xmobile.color-3F51B5 #message-objects div a.button,
+.xmobile.color-3F51B5 .popup-box .popup-close,
+.xmobile.color-3F51B5 #contactphoto .formlinks a,
+.xmobile.color-3F51B5 .records-table thead tr th {
+  background-color: #303F9F !important; }
+
+/*    .xdesktop.color-3F51B5 #topnav,
+    .xdesktop.color-3F51B5 #topline,
+    .xdesktop.color-3F51B5 #topline .topleft a,
+    .xdesktop.color-3F51B5 #topline .topright a,
+    .xdesktop.color-3F51B5 #taskbar a,
+    .xdesktop.color-3F51B5 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-3F51B5 input.material-input:checked + label.material,
+.color-3F51B5 input[type='button'],
+.color-3F51B5 input.button,
+.color-3F51B5 button,
+.color-3F51B5 .ui-button.ui-state-default,
+.xmobile.color-3F51B5 .boxfooter .listbutton {
+  background: #F50057; }
+
+.color-3F51B5 input.material-input:checked + label.material {
+  border-color: #F50057 !important; }
+
+.color-3F51B5 #mailboxlist li.selected > a,
+.color-3F51B5 .messagelist tr.flagged td,
+.color-3F51B5 .messagelist tr.flagged td a,
+.color-3F51B5 .records-table tr.flagged td span,
+.color-3F51B5 #messagelist tr td .flag span.flagged:before,
+.color-3F51B5 .listing .selected > td,
+.color-3F51B5 .listing .selected > a {
+  color: #F50057 !important; }
+
+.color-3F51B5 select:focus,
+.color-3F51B5 textarea:focus,
+.color-3F51B5 input[type='text']:focus,
+.color-3F51B5 input[type='password']:focus,
+.color-3F51B5 input[type='number']:focus,
+.color-3F51B5 input[type='email']:focus,
+.color-3F51B5 ul.tabsbar .ui-tabs-active a,
+.color-3F51B5 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #F50057 !important; }
+
+.color-3F51B5 input[type='button']:hover,
+.color-3F51B5 input.button:hover,
+.color-3F51B5 button.button:hover,
+.color-3F51B5 .ui-button:hover,
+.color-3F51B5 .ui-button.ui-state-default:hover {
+  background-color: #DF0355; }
+
+.color-3F51B5 label.material:before {
+  background: #F73379; }
+
+/*    .color-3F51B5 label.material:before,
+    .color-3F51B5 input.material-input:checked + label.material,
+    .color-3F51B5 input[type='button'],
+    .color-3F51B5 input.button,
+    .color-3F51B5 button,
+    .color-3F51B5 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-1976D2 #topnav,
+.color-1976D2 #topline {
+  background: #1976D2; }
+
+.xdesktop.color-1976D2 #taskbar > a:hover,
+.xdesktop.color-1976D2 #taskbar > span:hover,
+.xmobile.color-1976D2 #main-menu,
+.xmobile.color-1976D2 .popup-close,
+.xmobile.color-1976D2 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-1976D2 #messagelistcontainer .pagenav a.button,
+.xmobile.color-1976D2 #messagestack div,
+.xmobile.color-1976D2 #message-objects div a.button,
+.xmobile.color-1976D2 .popup-box .popup-close,
+.xmobile.color-1976D2 #contactphoto .formlinks a,
+.xmobile.color-1976D2 .records-table thead tr th {
+  background-color: #1565C0 !important; }
+
+/*    .xdesktop.color-1976D2 #topnav,
+    .xdesktop.color-1976D2 #topline,
+    .xdesktop.color-1976D2 #topline .topleft a,
+    .xdesktop.color-1976D2 #topline .topright a,
+    .xdesktop.color-1976D2 #taskbar a,
+    .xdesktop.color-1976D2 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-1976D2 input.material-input:checked + label.material,
+.color-1976D2 input[type='button'],
+.color-1976D2 input.button,
+.color-1976D2 button,
+.color-1976D2 .ui-button.ui-state-default,
+.xmobile.color-1976D2 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-1976D2 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-1976D2 #mailboxlist li.selected > a,
+.color-1976D2 .messagelist tr.flagged td,
+.color-1976D2 .messagelist tr.flagged td a,
+.color-1976D2 .records-table tr.flagged td span,
+.color-1976D2 #messagelist tr td .flag span.flagged:before,
+.color-1976D2 .listing .selected > td,
+.color-1976D2 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-1976D2 select:focus,
+.color-1976D2 textarea:focus,
+.color-1976D2 input[type='text']:focus,
+.color-1976D2 input[type='password']:focus,
+.color-1976D2 input[type='number']:focus,
+.color-1976D2 input[type='email']:focus,
+.color-1976D2 ul.tabsbar .ui-tabs-active a,
+.color-1976D2 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-1976D2 input[type='button']:hover,
+.color-1976D2 input.button:hover,
+.color-1976D2 button.button:hover,
+.color-1976D2 .ui-button:hover,
+.color-1976D2 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-1976D2 label.material:before {
+  background: #FF4569; }
+
+/*    .color-1976D2 label.material:before,
+    .color-1976D2 input.material-input:checked + label.material,
+    .color-1976D2 input[type='button'],
+    .color-1976D2 input.button,
+    .color-1976D2 button,
+    .color-1976D2 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-039BE5 #topnav,
+.color-039BE5 #topline {
+  background: #039BE5; }
+
+.xdesktop.color-039BE5 #taskbar > a:hover,
+.xdesktop.color-039BE5 #taskbar > span:hover,
+.xmobile.color-039BE5 #main-menu,
+.xmobile.color-039BE5 .popup-close,
+.xmobile.color-039BE5 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-039BE5 #messagelistcontainer .pagenav a.button,
+.xmobile.color-039BE5 #messagestack div,
+.xmobile.color-039BE5 #message-objects div a.button,
+.xmobile.color-039BE5 .popup-box .popup-close,
+.xmobile.color-039BE5 #contactphoto .formlinks a,
+.xmobile.color-039BE5 .records-table thead tr th {
+  background-color: #0288D1 !important; }
+
+/*    .xdesktop.color-039BE5 #topnav,
+    .xdesktop.color-039BE5 #topline,
+    .xdesktop.color-039BE5 #topline .topleft a,
+    .xdesktop.color-039BE5 #topline .topright a,
+    .xdesktop.color-039BE5 #taskbar a,
+    .xdesktop.color-039BE5 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-039BE5 input.material-input:checked + label.material,
+.color-039BE5 input[type='button'],
+.color-039BE5 input.button,
+.color-039BE5 button,
+.color-039BE5 .ui-button.ui-state-default,
+.xmobile.color-039BE5 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-039BE5 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-039BE5 #mailboxlist li.selected > a,
+.color-039BE5 .messagelist tr.flagged td,
+.color-039BE5 .messagelist tr.flagged td a,
+.color-039BE5 .records-table tr.flagged td span,
+.color-039BE5 #messagelist tr td .flag span.flagged:before,
+.color-039BE5 .listing .selected > td,
+.color-039BE5 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-039BE5 select:focus,
+.color-039BE5 textarea:focus,
+.color-039BE5 input[type='text']:focus,
+.color-039BE5 input[type='password']:focus,
+.color-039BE5 input[type='number']:focus,
+.color-039BE5 input[type='email']:focus,
+.color-039BE5 ul.tabsbar .ui-tabs-active a,
+.color-039BE5 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-039BE5 input[type='button']:hover,
+.color-039BE5 input.button:hover,
+.color-039BE5 button.button:hover,
+.color-039BE5 .ui-button:hover,
+.color-039BE5 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-039BE5 label.material:before {
+  background: #FF4569; }
+
+/*    .color-039BE5 label.material:before,
+    .color-039BE5 input.material-input:checked + label.material,
+    .color-039BE5 input[type='button'],
+    .color-039BE5 input.button,
+    .color-039BE5 button,
+    .color-039BE5 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-0097A7 #topnav,
+.color-0097A7 #topline {
+  background: #0097A7; }
+
+.xdesktop.color-0097A7 #taskbar > a:hover,
+.xdesktop.color-0097A7 #taskbar > span:hover,
+.xmobile.color-0097A7 #main-menu,
+.xmobile.color-0097A7 .popup-close,
+.xmobile.color-0097A7 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-0097A7 #messagelistcontainer .pagenav a.button,
+.xmobile.color-0097A7 #messagestack div,
+.xmobile.color-0097A7 #message-objects div a.button,
+.xmobile.color-0097A7 .popup-box .popup-close,
+.xmobile.color-0097A7 #contactphoto .formlinks a,
+.xmobile.color-0097A7 .records-table thead tr th {
+  background-color: #00838F !important; }
+
+/*    .xdesktop.color-0097A7 #topnav,
+    .xdesktop.color-0097A7 #topline,
+    .xdesktop.color-0097A7 #topline .topleft a,
+    .xdesktop.color-0097A7 #topline .topright a,
+    .xdesktop.color-0097A7 #taskbar a,
+    .xdesktop.color-0097A7 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-0097A7 input.material-input:checked + label.material,
+.color-0097A7 input[type='button'],
+.color-0097A7 input.button,
+.color-0097A7 button,
+.color-0097A7 .ui-button.ui-state-default,
+.xmobile.color-0097A7 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-0097A7 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-0097A7 #mailboxlist li.selected > a,
+.color-0097A7 .messagelist tr.flagged td,
+.color-0097A7 .messagelist tr.flagged td a,
+.color-0097A7 .records-table tr.flagged td span,
+.color-0097A7 #messagelist tr td .flag span.flagged:before,
+.color-0097A7 .listing .selected > td,
+.color-0097A7 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-0097A7 select:focus,
+.color-0097A7 textarea:focus,
+.color-0097A7 input[type='text']:focus,
+.color-0097A7 input[type='password']:focus,
+.color-0097A7 input[type='number']:focus,
+.color-0097A7 input[type='email']:focus,
+.color-0097A7 ul.tabsbar .ui-tabs-active a,
+.color-0097A7 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-0097A7 input[type='button']:hover,
+.color-0097A7 input.button:hover,
+.color-0097A7 button.button:hover,
+.color-0097A7 .ui-button:hover,
+.color-0097A7 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-0097A7 label.material:before {
+  background: #FF4569; }
+
+/*    .color-0097A7 label.material:before,
+    .color-0097A7 input.material-input:checked + label.material,
+    .color-0097A7 input[type='button'],
+    .color-0097A7 input.button,
+    .color-0097A7 button,
+    .color-0097A7 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-009688 #topnav,
+.color-009688 #topline {
+  background: #009688; }
+
+.xdesktop.color-009688 #taskbar > a:hover,
+.xdesktop.color-009688 #taskbar > span:hover,
+.xmobile.color-009688 #main-menu,
+.xmobile.color-009688 .popup-close,
+.xmobile.color-009688 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-009688 #messagelistcontainer .pagenav a.button,
+.xmobile.color-009688 #messagestack div,
+.xmobile.color-009688 #message-objects div a.button,
+.xmobile.color-009688 .popup-box .popup-close,
+.xmobile.color-009688 #contactphoto .formlinks a,
+.xmobile.color-009688 .records-table thead tr th {
+  background-color: #00796B !important; }
+
+/*    .xdesktop.color-009688 #topnav,
+    .xdesktop.color-009688 #topline,
+    .xdesktop.color-009688 #topline .topleft a,
+    .xdesktop.color-009688 #topline .topright a,
+    .xdesktop.color-009688 #taskbar a,
+    .xdesktop.color-009688 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-009688 input.material-input:checked + label.material,
+.color-009688 input[type='button'],
+.color-009688 input.button,
+.color-009688 button,
+.color-009688 .ui-button.ui-state-default,
+.xmobile.color-009688 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-009688 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-009688 #mailboxlist li.selected > a,
+.color-009688 .messagelist tr.flagged td,
+.color-009688 .messagelist tr.flagged td a,
+.color-009688 .records-table tr.flagged td span,
+.color-009688 #messagelist tr td .flag span.flagged:before,
+.color-009688 .listing .selected > td,
+.color-009688 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-009688 select:focus,
+.color-009688 textarea:focus,
+.color-009688 input[type='text']:focus,
+.color-009688 input[type='password']:focus,
+.color-009688 input[type='number']:focus,
+.color-009688 input[type='email']:focus,
+.color-009688 ul.tabsbar .ui-tabs-active a,
+.color-009688 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-009688 input[type='button']:hover,
+.color-009688 input.button:hover,
+.color-009688 button.button:hover,
+.color-009688 .ui-button:hover,
+.color-009688 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-009688 label.material:before {
+  background: #E45633; }
+
+/*    .color-009688 label.material:before,
+    .color-009688 input.material-input:checked + label.material,
+    .color-009688 input[type='button'],
+    .color-009688 input.button,
+    .color-009688 button,
+    .color-009688 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-43A047 #topnav,
+.color-43A047 #topline {
+  background: #43A047; }
+
+.xdesktop.color-43A047 #taskbar > a:hover,
+.xdesktop.color-43A047 #taskbar > span:hover,
+.xmobile.color-43A047 #main-menu,
+.xmobile.color-43A047 .popup-close,
+.xmobile.color-43A047 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-43A047 #messagelistcontainer .pagenav a.button,
+.xmobile.color-43A047 #messagestack div,
+.xmobile.color-43A047 #message-objects div a.button,
+.xmobile.color-43A047 .popup-box .popup-close,
+.xmobile.color-43A047 #contactphoto .formlinks a,
+.xmobile.color-43A047 .records-table thead tr th {
+  background-color: #388E3C !important; }
+
+/*    .xdesktop.color-43A047 #topnav,
+    .xdesktop.color-43A047 #topline,
+    .xdesktop.color-43A047 #topline .topleft a,
+    .xdesktop.color-43A047 #topline .topright a,
+    .xdesktop.color-43A047 #taskbar a,
+    .xdesktop.color-43A047 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-43A047 input.material-input:checked + label.material,
+.color-43A047 input[type='button'],
+.color-43A047 input.button,
+.color-43A047 button,
+.color-43A047 .ui-button.ui-state-default,
+.xmobile.color-43A047 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-43A047 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-43A047 #mailboxlist li.selected > a,
+.color-43A047 .messagelist tr.flagged td,
+.color-43A047 .messagelist tr.flagged td a,
+.color-43A047 .records-table tr.flagged td span,
+.color-43A047 #messagelist tr td .flag span.flagged:before,
+.color-43A047 .listing .selected > td,
+.color-43A047 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-43A047 select:focus,
+.color-43A047 textarea:focus,
+.color-43A047 input[type='text']:focus,
+.color-43A047 input[type='password']:focus,
+.color-43A047 input[type='number']:focus,
+.color-43A047 input[type='email']:focus,
+.color-43A047 ul.tabsbar .ui-tabs-active a,
+.color-43A047 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-43A047 input[type='button']:hover,
+.color-43A047 input.button:hover,
+.color-43A047 button.button:hover,
+.color-43A047 .ui-button:hover,
+.color-43A047 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-43A047 label.material:before {
+  background: #E45633; }
+
+/*    .color-43A047 label.material:before,
+    .color-43A047 input.material-input:checked + label.material,
+    .color-43A047 input[type='button'],
+    .color-43A047 input.button,
+    .color-43A047 button,
+    .color-43A047 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-689F38 #topnav,
+.color-689F38 #topline {
+  background: #689F38; }
+
+.xdesktop.color-689F38 #taskbar > a:hover,
+.xdesktop.color-689F38 #taskbar > span:hover,
+.xmobile.color-689F38 #main-menu,
+.xmobile.color-689F38 .popup-close,
+.xmobile.color-689F38 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-689F38 #messagelistcontainer .pagenav a.button,
+.xmobile.color-689F38 #messagestack div,
+.xmobile.color-689F38 #message-objects div a.button,
+.xmobile.color-689F38 .popup-box .popup-close,
+.xmobile.color-689F38 #contactphoto .formlinks a,
+.xmobile.color-689F38 .records-table thead tr th {
+  background-color: #558B2F !important; }
+
+/*    .xdesktop.color-689F38 #topnav,
+    .xdesktop.color-689F38 #topline,
+    .xdesktop.color-689F38 #topline .topleft a,
+    .xdesktop.color-689F38 #topline .topright a,
+    .xdesktop.color-689F38 #taskbar a,
+    .xdesktop.color-689F38 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-689F38 input.material-input:checked + label.material,
+.color-689F38 input[type='button'],
+.color-689F38 input.button,
+.color-689F38 button,
+.color-689F38 .ui-button.ui-state-default,
+.xmobile.color-689F38 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-689F38 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-689F38 #mailboxlist li.selected > a,
+.color-689F38 .messagelist tr.flagged td,
+.color-689F38 .messagelist tr.flagged td a,
+.color-689F38 .records-table tr.flagged td span,
+.color-689F38 #messagelist tr td .flag span.flagged:before,
+.color-689F38 .listing .selected > td,
+.color-689F38 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-689F38 select:focus,
+.color-689F38 textarea:focus,
+.color-689F38 input[type='text']:focus,
+.color-689F38 input[type='password']:focus,
+.color-689F38 input[type='number']:focus,
+.color-689F38 input[type='email']:focus,
+.color-689F38 ul.tabsbar .ui-tabs-active a,
+.color-689F38 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-689F38 input[type='button']:hover,
+.color-689F38 input.button:hover,
+.color-689F38 button.button:hover,
+.color-689F38 .ui-button:hover,
+.color-689F38 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-689F38 label.material:before {
+  background: #E45633; }
+
+/*    .color-689F38 label.material:before,
+    .color-689F38 input.material-input:checked + label.material,
+    .color-689F38 input[type='button'],
+    .color-689F38 input.button,
+    .color-689F38 button,
+    .color-689F38 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-AFB42B #topnav,
+.color-AFB42B #topline {
+  background: #AFB42B; }
+
+.xdesktop.color-AFB42B #taskbar > a:hover,
+.xdesktop.color-AFB42B #taskbar > span:hover,
+.xmobile.color-AFB42B #main-menu,
+.xmobile.color-AFB42B .popup-close,
+.xmobile.color-AFB42B #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-AFB42B #messagelistcontainer .pagenav a.button,
+.xmobile.color-AFB42B #messagestack div,
+.xmobile.color-AFB42B #message-objects div a.button,
+.xmobile.color-AFB42B .popup-box .popup-close,
+.xmobile.color-AFB42B #contactphoto .formlinks a,
+.xmobile.color-AFB42B .records-table thead tr th {
+  background-color: #9E9D24 !important; }
+
+/*    .xdesktop.color-AFB42B #topnav,
+    .xdesktop.color-AFB42B #topline,
+    .xdesktop.color-AFB42B #topline .topleft a,
+    .xdesktop.color-AFB42B #topline .topright a,
+    .xdesktop.color-AFB42B #taskbar a,
+    .xdesktop.color-AFB42B #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-AFB42B input.material-input:checked + label.material,
+.color-AFB42B input[type='button'],
+.color-AFB42B input.button,
+.color-AFB42B button,
+.color-AFB42B .ui-button.ui-state-default,
+.xmobile.color-AFB42B .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-AFB42B input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-AFB42B #mailboxlist li.selected > a,
+.color-AFB42B .messagelist tr.flagged td,
+.color-AFB42B .messagelist tr.flagged td a,
+.color-AFB42B .records-table tr.flagged td span,
+.color-AFB42B #messagelist tr td .flag span.flagged:before,
+.color-AFB42B .listing .selected > td,
+.color-AFB42B .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-AFB42B select:focus,
+.color-AFB42B textarea:focus,
+.color-AFB42B input[type='text']:focus,
+.color-AFB42B input[type='password']:focus,
+.color-AFB42B input[type='number']:focus,
+.color-AFB42B input[type='email']:focus,
+.color-AFB42B ul.tabsbar .ui-tabs-active a,
+.color-AFB42B .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-AFB42B input[type='button']:hover,
+.color-AFB42B input.button:hover,
+.color-AFB42B button.button:hover,
+.color-AFB42B .ui-button:hover,
+.color-AFB42B .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-AFB42B label.material:before {
+  background: #FF4569; }
+
+/*    .color-AFB42B label.material:before,
+    .color-AFB42B input.material-input:checked + label.material,
+    .color-AFB42B input[type='button'],
+    .color-AFB42B input.button,
+    .color-AFB42B button,
+    .color-AFB42B .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-FBC02D #topnav,
+.color-FBC02D #topline {
+  background: #FBC02D; }
+
+.xdesktop.color-FBC02D #taskbar > a:hover,
+.xdesktop.color-FBC02D #taskbar > span:hover,
+.xmobile.color-FBC02D #main-menu,
+.xmobile.color-FBC02D .popup-close,
+.xmobile.color-FBC02D #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-FBC02D #messagelistcontainer .pagenav a.button,
+.xmobile.color-FBC02D #messagestack div,
+.xmobile.color-FBC02D #message-objects div a.button,
+.xmobile.color-FBC02D .popup-box .popup-close,
+.xmobile.color-FBC02D #contactphoto .formlinks a,
+.xmobile.color-FBC02D .records-table thead tr th {
+  background-color: #F9A825 !important; }
+
+/*    .xdesktop.color-FBC02D #topnav,
+    .xdesktop.color-FBC02D #topline,
+    .xdesktop.color-FBC02D #topline .topleft a,
+    .xdesktop.color-FBC02D #topline .topright a,
+    .xdesktop.color-FBC02D #taskbar a,
+    .xdesktop.color-FBC02D #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-FBC02D input.material-input:checked + label.material,
+.color-FBC02D input[type='button'],
+.color-FBC02D input.button,
+.color-FBC02D button,
+.color-FBC02D .ui-button.ui-state-default,
+.xmobile.color-FBC02D .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-FBC02D input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-FBC02D #mailboxlist li.selected > a,
+.color-FBC02D .messagelist tr.flagged td,
+.color-FBC02D .messagelist tr.flagged td a,
+.color-FBC02D .records-table tr.flagged td span,
+.color-FBC02D #messagelist tr td .flag span.flagged:before,
+.color-FBC02D .listing .selected > td,
+.color-FBC02D .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-FBC02D select:focus,
+.color-FBC02D textarea:focus,
+.color-FBC02D input[type='text']:focus,
+.color-FBC02D input[type='password']:focus,
+.color-FBC02D input[type='number']:focus,
+.color-FBC02D input[type='email']:focus,
+.color-FBC02D ul.tabsbar .ui-tabs-active a,
+.color-FBC02D .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-FBC02D input[type='button']:hover,
+.color-FBC02D input.button:hover,
+.color-FBC02D button.button:hover,
+.color-FBC02D .ui-button:hover,
+.color-FBC02D .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-FBC02D label.material:before {
+  background: #FF4569; }
+
+/*    .color-FBC02D label.material:before,
+    .color-FBC02D input.material-input:checked + label.material,
+    .color-FBC02D input[type='button'],
+    .color-FBC02D input.button,
+    .color-FBC02D button,
+    .color-FBC02D .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-FFA000 #topnav,
+.color-FFA000 #topline {
+  background: #FFA000; }
+
+.xdesktop.color-FFA000 #taskbar > a:hover,
+.xdesktop.color-FFA000 #taskbar > span:hover,
+.xmobile.color-FFA000 #main-menu,
+.xmobile.color-FFA000 .popup-close,
+.xmobile.color-FFA000 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-FFA000 #messagelistcontainer .pagenav a.button,
+.xmobile.color-FFA000 #messagestack div,
+.xmobile.color-FFA000 #message-objects div a.button,
+.xmobile.color-FFA000 .popup-box .popup-close,
+.xmobile.color-FFA000 #contactphoto .formlinks a,
+.xmobile.color-FFA000 .records-table thead tr th {
+  background-color: #FF8F00 !important; }
+
+/*    .xdesktop.color-FFA000 #topnav,
+    .xdesktop.color-FFA000 #topline,
+    .xdesktop.color-FFA000 #topline .topleft a,
+    .xdesktop.color-FFA000 #topline .topright a,
+    .xdesktop.color-FFA000 #taskbar a,
+    .xdesktop.color-FFA000 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-FFA000 input.material-input:checked + label.material,
+.color-FFA000 input[type='button'],
+.color-FFA000 input.button,
+.color-FFA000 button,
+.color-FFA000 .ui-button.ui-state-default,
+.xmobile.color-FFA000 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-FFA000 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-FFA000 #mailboxlist li.selected > a,
+.color-FFA000 .messagelist tr.flagged td,
+.color-FFA000 .messagelist tr.flagged td a,
+.color-FFA000 .records-table tr.flagged td span,
+.color-FFA000 #messagelist tr td .flag span.flagged:before,
+.color-FFA000 .listing .selected > td,
+.color-FFA000 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-FFA000 select:focus,
+.color-FFA000 textarea:focus,
+.color-FFA000 input[type='text']:focus,
+.color-FFA000 input[type='password']:focus,
+.color-FFA000 input[type='number']:focus,
+.color-FFA000 input[type='email']:focus,
+.color-FFA000 ul.tabsbar .ui-tabs-active a,
+.color-FFA000 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-FFA000 input[type='button']:hover,
+.color-FFA000 input.button:hover,
+.color-FFA000 button.button:hover,
+.color-FFA000 .ui-button:hover,
+.color-FFA000 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-FFA000 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-FFA000 label.material:before,
+    .color-FFA000 input.material-input:checked + label.material,
+    .color-FFA000 input[type='button'],
+    .color-FFA000 input.button,
+    .color-FFA000 button,
+    .color-FFA000 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-EF6C00 #topnav,
+.color-EF6C00 #topline {
+  background: #EF6C00; }
+
+.xdesktop.color-EF6C00 #taskbar > a:hover,
+.xdesktop.color-EF6C00 #taskbar > span:hover,
+.xmobile.color-EF6C00 #main-menu,
+.xmobile.color-EF6C00 .popup-close,
+.xmobile.color-EF6C00 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-EF6C00 #messagelistcontainer .pagenav a.button,
+.xmobile.color-EF6C00 #messagestack div,
+.xmobile.color-EF6C00 #message-objects div a.button,
+.xmobile.color-EF6C00 .popup-box .popup-close,
+.xmobile.color-EF6C00 #contactphoto .formlinks a,
+.xmobile.color-EF6C00 .records-table thead tr th {
+  background-color: #E65100 !important; }
+
+/*    .xdesktop.color-EF6C00 #topnav,
+    .xdesktop.color-EF6C00 #topline,
+    .xdesktop.color-EF6C00 #topline .topleft a,
+    .xdesktop.color-EF6C00 #topline .topright a,
+    .xdesktop.color-EF6C00 #taskbar a,
+    .xdesktop.color-EF6C00 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-EF6C00 input.material-input:checked + label.material,
+.color-EF6C00 input[type='button'],
+.color-EF6C00 input.button,
+.color-EF6C00 button,
+.color-EF6C00 .ui-button.ui-state-default,
+.xmobile.color-EF6C00 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-EF6C00 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-EF6C00 #mailboxlist li.selected > a,
+.color-EF6C00 .messagelist tr.flagged td,
+.color-EF6C00 .messagelist tr.flagged td a,
+.color-EF6C00 .records-table tr.flagged td span,
+.color-EF6C00 #messagelist tr td .flag span.flagged:before,
+.color-EF6C00 .listing .selected > td,
+.color-EF6C00 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-EF6C00 select:focus,
+.color-EF6C00 textarea:focus,
+.color-EF6C00 input[type='text']:focus,
+.color-EF6C00 input[type='password']:focus,
+.color-EF6C00 input[type='number']:focus,
+.color-EF6C00 input[type='email']:focus,
+.color-EF6C00 ul.tabsbar .ui-tabs-active a,
+.color-EF6C00 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-EF6C00 input[type='button']:hover,
+.color-EF6C00 input.button:hover,
+.color-EF6C00 button.button:hover,
+.color-EF6C00 .ui-button:hover,
+.color-EF6C00 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-EF6C00 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-EF6C00 label.material:before,
+    .color-EF6C00 input.material-input:checked + label.material,
+    .color-EF6C00 input[type='button'],
+    .color-EF6C00 input.button,
+    .color-EF6C00 button,
+    .color-EF6C00 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-E64A19 #topnav,
+.color-E64A19 #topline {
+  background: #E64A19; }
+
+.xdesktop.color-E64A19 #taskbar > a:hover,
+.xdesktop.color-E64A19 #taskbar > span:hover,
+.xmobile.color-E64A19 #main-menu,
+.xmobile.color-E64A19 .popup-close,
+.xmobile.color-E64A19 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-E64A19 #messagelistcontainer .pagenav a.button,
+.xmobile.color-E64A19 #messagestack div,
+.xmobile.color-E64A19 #message-objects div a.button,
+.xmobile.color-E64A19 .popup-box .popup-close,
+.xmobile.color-E64A19 #contactphoto .formlinks a,
+.xmobile.color-E64A19 .records-table thead tr th {
+  background-color: #D84315 !important; }
+
+/*    .xdesktop.color-E64A19 #topnav,
+    .xdesktop.color-E64A19 #topline,
+    .xdesktop.color-E64A19 #topline .topleft a,
+    .xdesktop.color-E64A19 #topline .topright a,
+    .xdesktop.color-E64A19 #taskbar a,
+    .xdesktop.color-E64A19 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-E64A19 input.material-input:checked + label.material,
+.color-E64A19 input[type='button'],
+.color-E64A19 input.button,
+.color-E64A19 button,
+.color-E64A19 .ui-button.ui-state-default,
+.xmobile.color-E64A19 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-E64A19 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-E64A19 #mailboxlist li.selected > a,
+.color-E64A19 .messagelist tr.flagged td,
+.color-E64A19 .messagelist tr.flagged td a,
+.color-E64A19 .records-table tr.flagged td span,
+.color-E64A19 #messagelist tr td .flag span.flagged:before,
+.color-E64A19 .listing .selected > td,
+.color-E64A19 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-E64A19 select:focus,
+.color-E64A19 textarea:focus,
+.color-E64A19 input[type='text']:focus,
+.color-E64A19 input[type='password']:focus,
+.color-E64A19 input[type='number']:focus,
+.color-E64A19 input[type='email']:focus,
+.color-E64A19 ul.tabsbar .ui-tabs-active a,
+.color-E64A19 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-E64A19 input[type='button']:hover,
+.color-E64A19 input.button:hover,
+.color-E64A19 button.button:hover,
+.color-E64A19 .ui-button:hover,
+.color-E64A19 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-E64A19 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-E64A19 label.material:before,
+    .color-E64A19 input.material-input:checked + label.material,
+    .color-E64A19 input[type='button'],
+    .color-E64A19 input.button,
+    .color-E64A19 button,
+    .color-E64A19 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-795548 #topnav,
+.color-795548 #topline {
+  background: #795548; }
+
+.xdesktop.color-795548 #taskbar > a:hover,
+.xdesktop.color-795548 #taskbar > span:hover,
+.xmobile.color-795548 #main-menu,
+.xmobile.color-795548 .popup-close,
+.xmobile.color-795548 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-795548 #messagelistcontainer .pagenav a.button,
+.xmobile.color-795548 #messagestack div,
+.xmobile.color-795548 #message-objects div a.button,
+.xmobile.color-795548 .popup-box .popup-close,
+.xmobile.color-795548 #contactphoto .formlinks a,
+.xmobile.color-795548 .records-table thead tr th {
+  background-color: #5D4037 !important; }
+
+/*    .xdesktop.color-795548 #topnav,
+    .xdesktop.color-795548 #topline,
+    .xdesktop.color-795548 #topline .topleft a,
+    .xdesktop.color-795548 #topline .topright a,
+    .xdesktop.color-795548 #taskbar a,
+    .xdesktop.color-795548 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-795548 input.material-input:checked + label.material,
+.color-795548 input[type='button'],
+.color-795548 input.button,
+.color-795548 button,
+.color-795548 .ui-button.ui-state-default,
+.xmobile.color-795548 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-795548 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-795548 #mailboxlist li.selected > a,
+.color-795548 .messagelist tr.flagged td,
+.color-795548 .messagelist tr.flagged td a,
+.color-795548 .records-table tr.flagged td span,
+.color-795548 #messagelist tr td .flag span.flagged:before,
+.color-795548 .listing .selected > td,
+.color-795548 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-795548 select:focus,
+.color-795548 textarea:focus,
+.color-795548 input[type='text']:focus,
+.color-795548 input[type='password']:focus,
+.color-795548 input[type='number']:focus,
+.color-795548 input[type='email']:focus,
+.color-795548 ul.tabsbar .ui-tabs-active a,
+.color-795548 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-795548 input[type='button']:hover,
+.color-795548 input.button:hover,
+.color-795548 button.button:hover,
+.color-795548 .ui-button:hover,
+.color-795548 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-795548 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-795548 label.material:before,
+    .color-795548 input.material-input:checked + label.material,
+    .color-795548 input[type='button'],
+    .color-795548 input.button,
+    .color-795548 button,
+    .color-795548 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-757575 #topnav,
+.color-757575 #topline {
+  background: #757575; }
+
+.xdesktop.color-757575 #taskbar > a:hover,
+.xdesktop.color-757575 #taskbar > span:hover,
+.xmobile.color-757575 #main-menu,
+.xmobile.color-757575 .popup-close,
+.xmobile.color-757575 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-757575 #messagelistcontainer .pagenav a.button,
+.xmobile.color-757575 #messagestack div,
+.xmobile.color-757575 #message-objects div a.button,
+.xmobile.color-757575 .popup-box .popup-close,
+.xmobile.color-757575 #contactphoto .formlinks a,
+.xmobile.color-757575 .records-table thead tr th {
+  background-color: #616161 !important; }
+
+/*    .xdesktop.color-757575 #topnav,
+    .xdesktop.color-757575 #topline,
+    .xdesktop.color-757575 #topline .topleft a,
+    .xdesktop.color-757575 #topline .topright a,
+    .xdesktop.color-757575 #taskbar a,
+    .xdesktop.color-757575 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-757575 input.material-input:checked + label.material,
+.color-757575 input[type='button'],
+.color-757575 input.button,
+.color-757575 button,
+.color-757575 .ui-button.ui-state-default,
+.xmobile.color-757575 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-757575 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-757575 #mailboxlist li.selected > a,
+.color-757575 .messagelist tr.flagged td,
+.color-757575 .messagelist tr.flagged td a,
+.color-757575 .records-table tr.flagged td span,
+.color-757575 #messagelist tr td .flag span.flagged:before,
+.color-757575 .listing .selected > td,
+.color-757575 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-757575 select:focus,
+.color-757575 textarea:focus,
+.color-757575 input[type='text']:focus,
+.color-757575 input[type='password']:focus,
+.color-757575 input[type='number']:focus,
+.color-757575 input[type='email']:focus,
+.color-757575 ul.tabsbar .ui-tabs-active a,
+.color-757575 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-757575 input[type='button']:hover,
+.color-757575 input.button:hover,
+.color-757575 button.button:hover,
+.color-757575 .ui-button:hover,
+.color-757575 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-757575 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-757575 label.material:before,
+    .color-757575 input.material-input:checked + label.material,
+    .color-757575 input[type='button'],
+    .color-757575 input.button,
+    .color-757575 button,
+    .color-757575 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+
+/*# sourceMappingURL=desktop.css.map */
+
