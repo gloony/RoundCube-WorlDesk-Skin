@@ -14,4 +14,4 @@ New message must be on a separate window on settings
 
 ![Mail View](/screenshots/mail.png?raw=true "Mail view")
 ![Settings View](/screenshots/settings.png?raw=true "Settings view")
-![Compose View](/screenshots/compose.png?raw=true "Compose view")
+![Compose View](/screenshots/new.png?raw=true "Compose view")
