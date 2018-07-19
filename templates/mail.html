@@ -21,9 +21,9 @@
 
 <!-- toolbar -->
 <h2 id="aria-label-toolbar" class="voice"><roundcube:label name="arialabeltoolbar" /></h2>
-<div id="messagetoolbar" class="toolbar" role="toolbar" aria-labelledby="aria-label-toolbar">
-<!-- 	<roundcube:button command="checkmail" type="link" class="button checkmail disabled" classAct="button checkmail" classSel="button checkmail pressed" label="refresh" title="checkmail" />
-	<roundcube:include file="/includes/mailtoolbar.html" /> -->
+<div id="messagetoolbar" class="toolbar hid" role="toolbar" aria-labelledby="aria-label-toolbar">
+	<roundcube:button command="checkmail" type="link" class="button checkmail disabled" classAct="button checkmail" classSel="button checkmail pressed" label="refresh" title="checkmail" />
+	<roundcube:include file="/includes/mailtoolbar.html" />
 </div>
 
 <div id="messagesearchtools">
@@ -76,7 +76,7 @@
 	<roundcube:object name="mailboxlist" id="mailboxlist" class="treelist listing folderlist" folder_filter="mail" unreadwrap="%s" />
 </div>
 <div id="folderlist-footer" class="boxfooter">
-	<roundcube:button command="compose" type="link" title="compose" class="listbutton add disabled" classAct="listbutton add" innerClass="inner" label="addgroup" />
+	<roundcube:button command="compose" type="link" title="compose" class="listbutton add" innerClass="inner" />
 	<roundcube:button name="mailboxmenulink" id="mailboxmenulink" type="link" title="moreactions" class="listbutton groupactions" onclick="UI.toggle_popup('mailboxmenu',event);return false" innerClass="inner" content="&#9881;" aria-haspopup="true" aria-expanded="false" aria-owns="mailboxoptionsmenu" />
 	<roundcube:if condition="env:quota" />
 		<span class="voice"><roundcube:label name="quota"></span>
@@ -129,6 +129,7 @@
 	</div>
 
 	<div id="countcontrols" class="pagenav dark">
+		<roundcube:object id="ident_switch" class="" aria-live="polite" aria-relevant="text" />
 		<roundcube:object name="messageCountDisplay" class="countdisplay" aria-live="polite" aria-relevant="text" />
 		<span class="pagenavbuttons">
 		<roundcube:button command="firstpage" type="link" class="button firstpage disabled" classAct="button firstpage" classSel="button firstpage pressed" innerClass="inner" title="firstpage" label="first" />

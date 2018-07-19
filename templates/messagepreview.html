@@ -51,16 +51,16 @@
 </tr></tbody></table>
 
 <roundcube:object name="messageHeaders" id="preview-allheaders" class="headers-table" addicon="/images/addcontact.png" max="10" exclude="subject,replyto" />
+<div class="rightcol" role="region" aria-labelledby="aria-label-messageattachments">
+<h2 id="aria-label-messageattachments" class="voice"><roundcube:label name="attachments" /></h2>
+<roundcube:object name="messageAttachments" id="attachment-list" class="attachmentslist" />
+</div>
 
 <roundcube:object name="messageFullHeaders" id="full-headers" />
 
 </div>
 
 <div id="messagepreview" role="main">
-<div class="rightcol" role="region" aria-labelledby="aria-label-messageattachments">
-<h2 id="aria-label-messageattachments" class="voice"><roundcube:label name="attachments" /></h2>
-<roundcube:object name="messageAttachments" id="attachment-list" class="attachmentslist" />
-</div>
 <div class="leftcol" role="region" aria-labelledby="aria-label-messagebody">
 <h2 id="aria-label-messagebody" class="voice"><roundcube:label name="arialabelmessagebody" /></h2>
 <roundcube:object name="messageObjects" id="message-objects" />

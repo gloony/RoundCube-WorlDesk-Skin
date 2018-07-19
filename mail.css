@@ -7,6 +7,17 @@
 	z-index: 1; /* fixes scrolling in Edge (#5750) */
 }
 
+#plugin-ident_switch-account {
+	display: block!important;
+	position: fixed;
+	bottom: 40px;
+	right: 14px;
+}
+
+.widescreen .messagelist td.subject span.subject{
+	display:initial!important;
+}
+
 #mailview-right {
 	position: absolute;
 	top: 0;
@@ -17,6 +28,7 @@
 
 #mailview-right.fullwidth {
 	left: 0;
+	top: -40px;
 }
 
 #mailview-top {
@@ -29,6 +41,10 @@
 
 html.ie #mailview-top {
 	overflow: visible; /* fixes display issues of fixed list header in IE */
+}
+
+#messagestack {
+	right: 380px!important;
 }
 
 #mailview-bottom {
@@ -180,7 +196,9 @@ html.mozilla #mailboxlist > li:first-child {
 	top: 10px;
 	width: 100%;
 }
-
+.hid{
+	top: -40px!important;
+}
 #messagetoolbar {
 	position: absolute;
 	bottom: 0;

@@ -21,8 +21,8 @@
 	<roundcube:button command="list" type="link" class="button back disabled" classAct="button back" label="cancel" condition="!env:extwin" tabindex="2" />
 	<roundcube:button command="close" type="link" class="button close disabled" classAct="button close" label="cancel" condition="env:extwin" tabindex="2" />
 <!-- 	<span class="spacer"></span> -->
-	<roundcube:button command="send" type="link" class="button send disabled" classAct="button send" label="send" title="sendmessage" tabindex="2" />
 	<roundcube:button command="savedraft" type="link" class="button savedraft disabled" classAct="button savedraft" label="save" title="savemessage" tabindex="2" />
+	<roundcube:button command="send" type="link" class="button send disabled" classAct="button send" label="send" title="sendmessage" tabindex="2" />
 <!-- 	<span class="spacer"></span>
 	<roundcube:if condition="config:enable_spellcheck" />
 	<span class="dropbutton">
@@ -184,8 +184,8 @@
 	</div>
 <!--
 	<div id="composeformbuttons" class="footerleft formbuttons floating">
-		<roundcube:button type="input" command="savedraft" class="button" label="savemessage" tabindex="12" />
 		<roundcube:button type="input" command="send" class="button mainaction" label="sendmessage" tabindex="11" />
+		<roundcube:button type="input" command="savedraft" class="button" label="savemessage" tabindex="12" />
 		<roundcube:button type="input" command="list" class="button" label="cancel" tabindex="13" />
 	</div>
 -->
